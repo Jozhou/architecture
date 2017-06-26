@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.architecture.view.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lefticon="@drawable/btn_back"
+        app:lefttext="@string/activity_back"
+        app:title="@string/title_index"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dd_dimen_30px"
+            android:paddingBottom="@dimen/dd_dimen_30px"
+            android:background="@color/bg_major"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_major"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/font_color_two"
+                android:text="专业"
+                android:layout_marginLeft="@dimen/dd_dimen_30px"
+                android:textSize="@dimen/dd_dimen_28px"/>
+
+            <TextView
+                android:id="@+id/tv_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/font_color_two"
+                android:text="班级"
+                android:layout_marginRight="@dimen/dd_dimen_30px"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/dd_dimen_28px"/>
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/bg_main"
+            android:layout_below="@id/rl_major">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dd_dimen_30px"
+                    android:layout_marginLeft="@dimen/dd_dimen_30px"
+                    android:textColor="@color/font_color_one"
+                    android:textSize="@dimen/dd_dimen_30px"
+                    android:text="姓名"/>
+                
+                <ImageView
+                    android:id="@+id/img_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_scan"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dd_dimen_30px"
+                    android:layout_below="@+id/img_scan"
+                    android:gravity="center"
+                    android:textColor="@color/font_color_one"
+                    android:textSize="@dimen/dd_dimen_30px"
+                    android:text="@string/tip_scan"/>
+                
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_tj_landmark">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/dd_dimen_60px"
+                    android:layout_marginRight="@dimen/dd_dimen_60px"
+                    android:background="@drawable/bg_search"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="@dimen/dd_dimen_80px">
+                    <Spinner
+                        android:id="@+id/sp_nodename"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/node_codes"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:spinnerMode="dialog"/>
+                    
+                    <ImageView
+                        android:id="@+id/img_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_main_arrow_down"
+                        android:layout_marginLeft="@dimen/dd_dimen_10px"/>
+                    
+                    <EditText
+                        android:id="@+id/et_project_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/dd_dimen_10px"
+                        android:textColor="@color/font_color_three"
+                        android:textSize="@dimen/dd_dimen_26px"
+                        android:background="@null"/>
+                    
+                    <Button
+                        android:id="@+id/btn_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_search"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

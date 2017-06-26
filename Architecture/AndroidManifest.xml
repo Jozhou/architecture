@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.architecture"
+    android:versionCode="2"
+    android:versionName="2.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> 
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+	<uses-permission android:name="android.permission.READ_LOGS" /> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- 显示顶层浮窗 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <application
+        android:name="com.architecture.application.App"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/BaseActivityTheme" >
+
+        <meta-data android:value="5850f378aed1797988001880" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
+
+        <activity
+            android:name="com.architecture.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.zxing.MipcaActivityCapture"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.ProjectInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.ImageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.ImageDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.VideoListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.ConstructionVideoDetailActivity3"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.RepositoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.ArchitectureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+        <activity
+            android:name="com.architecture.activity.SearchListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseActivityTheme">
+        </activity>
+
+    </application>
+
+</manifest>

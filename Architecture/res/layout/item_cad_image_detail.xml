@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_image_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_color_three"
+        android:text="图纸名称"
+        android:layout_marginTop="@dimen/dd_dimen_20px"
+        android:layout_marginBottom="@dimen/dd_dimen_20px"
+        android:textSize="@dimen/dd_dimen_26px"/>
+    
+    <com.architecture.widget.imageview.MResizeThumbImageView
+        android:id="@+id/img_cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dd_dimen_60px"
+        android:paddingRight="@dimen/dd_dimen_60px"
+        android:layout_marginTop="@dimen/dd_dimen_20px">
+        <Button
+            android:id="@+id/btn_pre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_next"
+            android:text="@string/btn_pre"
+            android:textSize="@dimen/dd_dimen_24px"
+            android:paddingTop="@dimen/dd_dimen_10px"
+            android:paddingBottom="@dimen/dd_dimen_10px"
+            android:textColor="@color/font_color_one"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_next"
+            android:text="@string/btn_next"
+            android:textSize="@dimen/dd_dimen_24px"
+            android:paddingTop="@dimen/dd_dimen_10px"
+            android:paddingBottom="@dimen/dd_dimen_10px"
+            android:textColor="@color/font_color_one"
+            android:layout_marginLeft="@dimen/dd_dimen_30px"/>
+    </LinearLayout>
+</LinearLayout>

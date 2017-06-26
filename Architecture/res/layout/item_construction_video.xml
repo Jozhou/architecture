@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cadimg_item">
+    
+    <com.architecture.widget.imageview.MResizeThumbImageView
+        android:id="@+id/img_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_color_three"
+        android:text="标题"
+        android:layout_marginTop="@dimen/dd_dimen_20px"
+        android:layout_marginBottom="@dimen/dd_dimen_20px"
+        android:layout_marginLeft="@dimen/dd_dimen_20px"
+        android:textSize="@dimen/dd_dimen_26px"/>
+
+    <TextView
+        android:id="@+id/tv_video_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_color_four"
+        android:text="作者"
+        android:layout_marginBottom="@dimen/dd_dimen_20px"
+        android:textSize="@dimen/dd_dimen_26px"
+        android:layout_marginLeft="@dimen/dd_dimen_20px"/>
+</LinearLayout>

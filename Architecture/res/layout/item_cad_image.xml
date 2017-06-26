@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_cadimg_item"
+    android:layout_marginTop="@dimen/dd_dimen_20px"
+    android:layout_marginLeft="@dimen/dd_dimen_20px"
+    android:layout_marginRight="@dimen/dd_dimen_20px">
+    <TextView
+        android:id="@+id/tv_image_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_color_three"
+        android:text="图纸名称"
+        android:layout_marginTop="@dimen/dd_dimen_20px"
+        android:layout_marginBottom="@dimen/dd_dimen_20px"
+        android:textSize="@dimen/dd_dimen_26px"/>
+    
+    <com.architecture.widget.imageview.MResizeThumbImageView
+        android:id="@+id/img_cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

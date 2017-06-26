@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bg">#474b59</drawable>
+    <color name="mask_bg">#d0000000</color>
+    <color name="main_bg">#efefef</color>
+    <color name="blank_fg">#808080</color>
+    <color name="loction_city_flag_color">#d2d6dd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3c6691</color>
+    <color name="base_yellow">#FDBF03</color>
+    <color name="base_gray">#EAEADB</color>
+    <color name="base_half_gray">#30000000</color>
+    <color name="base_list_normal">#00000000</color>
+    <color name="base_list_pressed">#50000000</color>
+    <color name="base_gray_blue">#E6E6E6</color>
+    <color name="base_light_black">#666666</color>
+    <color name="base_line">#C8C8C8</color>
+    <color name="base_title_blue">@color/bg_main</color>
+
+    <!-- 确认按钮默认颜色 -->
+    <color name="commitbuttoncolor">#cccccc</color>
+    <!-- 确认按钮颜色可点击时颜色 -->
+    <color name="commitbuttoncolor_clickable">#f68a3c</color>
+    <!-- 确认按钮颜色被按下时 -->
+    <color name="commitbuttoncolor_onclick">#f68a3c</color>
+    <!-- 确认按钮颜色可点击时颜色 -->
+    <color name="greenbuttoncolor_clickable">#128a53</color>
+    <!-- 确认按钮颜色被按下时 -->
+    <color name="greenbuttoncolor_onclick">#f0128a53</color>
+    <!-- 注册  输入框中每行的小标题文字 -->
+    <color name="registertext">#3e454d</color>
+
+    <color name="combuttecolor">#231f20</color>
+    <color name="combuttecolorcoop">#b0b0b0</color>
+
+    <!-- 一号颜色 -->
+    <color name="font_color_one">#ffffff</color>
+    <!-- 二号颜色 -->
+    <color name="font_color_two">#007db7</color>
+    <!-- 三号颜色 -->
+    <color name="font_color_three">#333333</color>
+    <!-- 四号颜色 -->
+    <color name="font_color_four">#666666</color>
+    <!-- 五号颜色 -->
+    <color name="font_color_five">#999999</color>
+    <!-- 线条颜色 -->
+    <color name="line_color">#33bfbfc7</color>
+    <color name="line_color1">#ced1d6</color>
+    <color name="line_color2">#e0e0e0</color>
+    <!-- 主背景色 -->
+    <color name="bg_main">#007db7</color>
+
+    <!-- 登录页 -->
+    <color name="font_login">#046997</color>
+    
+    <!-- 首页 -->
+    <color name="bg_major">#cce5f1</color>
+
+    <!-- 二维码详细页面 -->
+    <color name="bg_code">#eceff4</color>
+
+    <!-- 对话框 -->
+    <color name="dialog_title">#404041</color>
+    <color name="dialog_desc">#bfbfbf</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- 下拉刷新 -->
+    <color name="index_performance_diver">#33bfbfc7</color>
+    <color name="trip_text_name">#3e454d</color>
+    
+    <!-- titlebar -->
+    <color name="title_color">#ffffff</color>
+
+    <!-- 扫描 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

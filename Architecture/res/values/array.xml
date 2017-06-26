@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="node_codes">
+        <item name="node1">节点编号</item>
+        <item name="node2">节点名称</item>
+        <item name="node3">分部分项工程</item>
+    </array>
+</resources>

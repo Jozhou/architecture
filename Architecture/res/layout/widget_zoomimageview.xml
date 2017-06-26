@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.szzc.ucar.widget.imageview.zoom.MZoomImageView
+        android:id="@+id/zoomimageview_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+	<View 
+	    android:id="@+id/zoomimageview_floatlayer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"/>
+
+</merge>

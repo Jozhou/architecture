@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">建筑教学系统</string>
+    <string name="error_param">页面参数错误</string>
+    <string name="loading">加载中...</string>
+    <!-- base -->
+    <string name="action_next">下一步</string>
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_retry">重试</string>
+    <string name="action_sure">确定</string>
+    <string name="action_call">拨打电话</string>
+    <string name="action_later">稍后再说</string>
+    <string name="action_update">立即升级</string>
+    <string name="action_accept">接受</string>
+    <string name="money_rmb2">¥</string>
+    <string name="location_response_error">定位失败，请稍后再试</string>
+    <string name="network_response_error">您的网络状况不好，请稍后再试</string>
+    <string name="server_response_error">服务器返回错误，错误code:%1$s</string>
+    <string name="decrpt_response_error">解密服务器返回数据失败</string>
+    <string name="handlesucc_response_error">处理服务器返回数据失败</string>
+    <string name="handleerror_response_error">网络请求过程发生异常</string>
+    <string name="notinstall_actionview">"当前手机未安装默认浏览器，无法完成下载，升级地址已复制到手机粘贴板，请自行下载安装"</string>
+    <string name="error_requst_quicky">请求过于频繁，休息一下！</string>
+    <string name="error_network_tip">未连接到互联网，请检查网络配置。</string>
+    <string name="submit_costdetail">确认</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">加载中…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_from_bottom_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在载入…</string>
+    <string name="footer_loadmore">点击加载更多</string>
+    <string name="footer_loading">正在加载中…</string>
+    <string name="footer_loadall">已加载全部数据</string>
+    <string name="get_data_err">获取数据失败</string>
+    <string name="cannot_use_empty_phone">电话号码不能为空!</string>
+    <string name="call_phone_fail">拨打电话失败，电话号码已复制至剪贴板</string>
+    <string name="network_error">网络不给力,请检查后再试</string>
+
+    <!-- 选择图片 -->
+    <string name="photochooser_camera">拍照</string>
+    <string name="photochooser_album">从相册选择</string>
+    <string name="photochooser_cancel">取消</string>
+    <string name="photochooser_delete">删除</string>
+    <string name="activity_notfound">您当前手机未安装支持的应用</string>
+
+
+    <!-- 登陆 -->
+    <string name="login">登&#160;录</string>
+    <string name="tip_username_null">用户名不能为空</string>
+    <string name="tip_pass_null">密码不能为空</string>
+    
+    <!-- 首页 -->
+    <string name="activity_back">返回</string>
+    <string name="title_index">首页</string>
+    <string name="major">专业：%1$s</string>
+    <string name="rsclass">班级：%1$s</string>
+    <string name="name">姓名：%1$s</string>
+    <string name="tip_scan">安全扫一扫</string>
+    <string name="tip_search_no_data">搜索结果为空</string>
+    
+    <!-- 二维码详细页面 -->
+    <string name="title_qrcode_detail">二维码详细页面</string>
+    <string name="construction_video">施工影像</string>
+    <string name="bim">BIM动画</string>
+    <string name="repository">知识库</string>
+    <string name="architecture">材料信息</string>
+    <string name="equipment">设备设施信息</string>
+    <string name="code">编号：%1$s</string>
+    <string name="node_name">节点名称：%1$s</string>
+    <string name="pro_name">分部分项工程：%1$s</string>
+    <string name="btn_cad">CAD图纸</string>
+    <string name="image_text">图文解说</string>
+    <string name="attentions">注意事项</string>
+    <string name="construction_points">施工要点</string>
+    <string name="btn_display_more">显示更多</string>
+    <string name="btn_dismiss_more">收起</string>
+    <string name="node_code">节点编号：%1$s</string>
+    <string name="pro_part_name">分部分项：%1$s</string>
+    
+    <!--  图纸 -->
+    <string name="cad_image_name">图纸名称：%1$s</string>
+    <string name="title_image">图纸</string>
+    <string name="btn_pre">上一页</string>
+    <string name="btn_next">下一页</string>
+    <string name="already_first">已经是第一页了</string>
+    <string name="already_last">已经是最后一页了</string>
+
+    <!--  施工影像 -->
+    <string name="video_title">标题：%1$s</string>
+    <string name="video_author">类型：%1$s</string>
+    <string name="title_construction_video">施工影像</string>
+    
+    <!-- 二维码扫描 -->
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="title_scan">二维码扫描</string>
+
+    <!-- 知识库 -->
+    <string name="title_repository">知识库</string>
+    <string name="knowledge_name">名称</string>
+    <string name="knowledge_content">内容</string>
+
+    <!--  BIM动画 -->
+    <string name="title_bim">BIM动画</string>
+
+    <!--  建筑信息 -->
+    <string name="title_architecture">材料信息</string>
+
+    <!--  设备设施信息 -->
+    <string name="title_equipment">设备设施信息</string>
+
+    <string name="go">go</string>
+    <string name="nulltime">--:--:--</string>
+    <string name="filebrowser_sdfail">Unable to open SD card. Please check it is mounted correctly.</string>
+    <string name="filebrowser_root">&lt;root></string>
+    <string name="filebrowser_parent">..</string>
+    <string name="filebrowser_title">Select media to play</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="ml_no_media_dir">No Media Directory</string>
+    <string name="sortby">Sort By...</string>
+    <string name="sortby_name">Name</string>
+    <string name="sortby_length">Length</string>
+    <string name="searchable_hint">Search...</string>
+    <string name="searchable_label">VLC media player</string>
+    <string name="search_history">History</string>
+    <string name="clear_history">Clear History</string>
+    <string name="search_found_results">%1$d Results Found</string>
+    <string name="show_player">Show Player</string>
+    <string name="hide_mini_player">Hide Mini-Player</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="close">Close</string>
+    <string name="not_show_again">"Don't show this Message again."</string>
+    <string name="beta_warning">"This is a early alpha version
+(NOT STABLE!)."</string>
+    <string name="info_title">Information</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="vide_categrizes_detail">优酷视频分类</string>
+    <string name="vide_categrizes_detail_tudou">土豆视频分类</string>
+    <string name="vide_categrizes_detail_ku6">酷六视频分类</string>
+    <string name="vide_categrizes_detail_jf6">六间房视频分类</string>
+    <string name="vide_categrizes_detail_sina">新浪视频分类</string>
+    <string name="categrizes_navagation_str">分类导航</string>
+    <string name="share_to_weibo">分享到微博</string>
+    <string name="twintter_loginout">注销</string>
+    <string name="today_new_str">今日最新</string>
+    <string name="video_search_str">视频搜索</string>
+    <string name="collect_str">收藏</string>
+    <string name="collect_str_edit">编辑</string>
+    <string name="more_str">更多</string>
+    <string name="return_back_page">返回</string>
+    <string name="publish_weibo">发送至微博</string>
+    <string name="video_relative">相关视频</string>
+    <string name="starch_tab_youku">优酷</string>
+    <string name="starch_tab_tudou">土豆</string>
+    <string name="starch_tab_ku6">酷6</string>
+    <string name="starch_tab_jianfang6">六间房</string>
+    <string name="starch_tab_sina">新浪</string>
+    <string name="starch_tab_hot">热门搜索</string>
+    <string name="item_detail_play">播放</string>
+    <string name="item_detail_novideo">只听声音</string>
+    <string name="item_detail_collect">收藏</string>
+    <string name="network_apn_status">网络状态</string>
+    <string name="network_apn_content_noteinfo">网络未链接，请确保网络已经链接</string>
+    <string name="button_confirm">确认</string>
+    <string name="cancel_exit">取消</string>
+    <string name="band_width">带宽检测</string>
+    <string name="edit_mod_del_str">删除</string>
+    <string name="band_width_msg">带宽检测次数已经超过3次,请退出视频汇.重新确认网络链接或是否有流量费用.</string>
+    <string name="err_message_1">发布微博消息失败!</string>
+    <string name="err_message_2">获取访问登录地址失败!</string>
+    <string name="err_message_3">Tocken and Tocken_Secret 获取失败！</string>
+    <string name="err_message_4">获取PIN失败,重新登录下？</string>
+    <string name="success_message_1">已经分享到微博!</string>
+    <string name="success_message_2">视频汇 网罗天下视频!</string>
+    <string name="success_message_3">来自于 @视频汇官方微博,</string>
+    <string name="request_timeout_title">请求服务器超时提示</string>
+    <string name="request_wailt_title">正请求服务器</string>
+    <string name="request_timeout_content">网络链接超时,请尝试重新访问本页面</string>
+    <string name="input_keywords_please">请输入关键词</string>
+    <string name="back_page">下一页</string>
+    <string name="next_page">上一页</string>
+    <string name="vlc_exit_info_title">退出提示</string>
+    <string name="vlc_exit_info_content">您是否确认退出应用？</string>
+    <string name="version_update">版本更新</string>
+    <string name="version_update_content">我们已经发布新版本了,快去更新吧！</string>
+</resources>

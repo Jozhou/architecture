@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@android:id/home"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#d1cfcc"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@android:id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dd_dimen_90px"
+            android:text="@string/photochooser_camera"
+            style="@style/PhotoChooseButton" />
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dd_dimen_1px"
+            android:background="#e5e5e5" />
+
+        <Button
+            android:id="@android:id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dd_dimen_90px"
+            android:text="@string/photochooser_album"
+            style="@style/PhotoChooseButton"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@android:id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dd_dimen_90px"
+            android:layout_marginTop="15dip"
+            android:text="@string/photochooser_cancel"
+            style="@style/PhotoChooseButton" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

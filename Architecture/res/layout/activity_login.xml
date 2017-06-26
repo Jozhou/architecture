@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/bg_main">
+
+    <com.architecture.widget.ResizableImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_head"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_school"
+        android:layout_marginTop="@dimen/dd_dimen_30px"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_app_name"
+        android:layout_marginTop="@dimen/dd_dimen_10px"/>
+    
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dd_dimen_50px"
+        android:layout_marginRight="@dimen/dd_dimen_50px"
+        android:layout_marginTop="@dimen/dd_dimen_50px"
+        android:background="@drawable/bg_login_input"
+        android:drawableLeft="@drawable/icon_username"
+        android:drawablePadding="@dimen/dd_dimen_10px"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/dd_dimen_30px"
+        android:textColor="@color/font_color_one"/>
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dd_dimen_50px"
+        android:layout_marginRight="@dimen/dd_dimen_50px"
+        android:layout_marginTop="@dimen/dd_dimen_30px"
+        android:background="@drawable/bg_login_input"
+        android:drawableLeft="@drawable/icon_pass"
+        android:drawablePadding="@dimen/dd_dimen_10px"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/dd_dimen_30px"
+        android:textColor="@color/font_color_one"
+        android:inputType="textPassword"/>
+    
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dd_dimen_40px"
+        android:layout_marginLeft="@dimen/dd_dimen_50px"
+        android:layout_marginRight="@dimen/dd_dimen_50px"
+        android:text="@string/login"
+        android:background="@drawable/btn_login"
+        android:textSize="@dimen/dd_dimen_30px"
+        android:textColor="@color/font_login"/>
+</LinearLayout>

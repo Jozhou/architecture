@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 竖线 -->
+    <style name="line_ver">
+        <item name="android:background">@color/line_color</item>
+        <item name="android:layout_width">@dimen/dd_dimen_1px</item>
+    </style>
+    
+    <!-- 横线 -->
+    <style name="line_hor1">
+        <item name="android:background">@color/line_color1</item>
+        <item name="android:layout_height">@dimen/dd_dimen_2px</item>
+    </style>
+
+    <!-- 竖线 -->
+    <style name="line_ver1">
+        <item name="android:background">@color/line_color1</item>
+        <item name="android:layout_width">@dimen/dd_dimen_2px</item>
+    </style>
+
+    <style name="tab_txt">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/dd_dimen_21px</item>
+        <item name="android:textColor">@color/font_color_one</item>
+        <item name="android:paddingTop">@dimen/dd_dimen_8px</item>
+        <item name="android:paddingBottom">@dimen/dd_dimen_8px</item>
+        <item name="android:drawablePadding">@dimen/dd_dimen_12px</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 选择图片按钮 -->
+    <style name="PhotoChooseButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dd_dimen_90px</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#4d4d4d</item>
+        <item name="android:textSize">@dimen/dd_dimen_34px</item>
+    </style>
+
+    <style name="player_seekbar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">10.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_style_drawable</item>
+        <item name="android:progressDrawable">@drawable/seekbar_style_drawable</item>
+        <item name="android:minHeight">10.0dip</item>
+        <item name="android:thumb">@drawable/controller_playhead_drawable</item>
+        <item name="android:thumbOffset">8.0px</item>
+    </style>
+</resources>
