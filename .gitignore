@@ -1,0 +1,11 @@
+Architecture/.gradle
+Architecture/.idea
+Architecture/.settings
+Architecture/Architecture.iml
+Architecture/bin
+Architecture/build
+Architecture/gen
+Architecture/gradle
+Architecture/gradlew
+Architecture/gradlew.bat
+Architecture/local.properties
